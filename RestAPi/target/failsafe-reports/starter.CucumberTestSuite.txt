@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 32.054 s <<< FAILURE! - in starter.CucumberTestSuite
+Products.POST As admin I have be able to create new products rating  Time elapsed: 0.342 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I set POST endpoints by rating' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I set POST endpoints by rating")
+public void i_set_post_endpoints_by_rating() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send POST HTTP request by rating")
+public void i_send_post_http_request_by_rating() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I receive valid HTTP response code {int} in products rating POST")
+public void i_receive_valid_http_response_code_in_products_rating_post(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I receive valid data for assign product rating")
+public void i_receive_valid_data_for_assign_product_rating() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Products.POST As admin I have be able to create new products comment  Time elapsed: 0.151 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I set POST endpoints by comment' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I set POST endpoints by comment")
+public void i_set_post_endpoints_by_comment() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I send POST HTTP request by comment")
+public void i_send_post_http_request_by_comment() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I receive valid HTTP response code {int} in products comment POST")
+public void i_receive_valid_http_response_code_in_products_comment_post(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I receive valid data for new comment")
+public void i_receive_valid_data_for_new_comment() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+order.POST As admin I have be able to create new order  Time elapsed: 0.565 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+

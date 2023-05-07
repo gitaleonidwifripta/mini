@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"order","GET All Order","SUCCESS","2023-05-07T12:04:09.2976682+07:00[Asia/Jakarta]","0.0","0.47"
+"order","GET As an admin I have be able to get id order","SUCCESS","2023-05-07T12:04:10.510429+07:00[Asia/Jakarta]","0.0","0.29"

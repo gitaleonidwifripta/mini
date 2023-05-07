@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Authentication","Register using a valid full name, email and password","SUCCESS","2023-05-07T12:03:52.3275251+07:00[Asia/Jakarta]","0.0","11.51"
+"Authentication","Login with registered or correct email and password","SUCCESS","2023-05-07T12:04:03.9477067+07:00[Asia/Jakarta]","0.0","0.31"
+"Authentication","view user information","SUCCESS","2023-05-07T12:04:04.3584007+07:00[Asia/Jakarta]","0.0","0.37"
